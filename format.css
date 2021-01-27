@@ -9,8 +9,12 @@ input {
 *{
     margin: 0;
     padding: 0;
-    background-color: #d1d1d1;
     font-family: sans-serif;
+}
+
+body {
+    background-color: #fff;
+
 }
 
 h3 {
