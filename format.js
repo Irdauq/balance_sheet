@@ -1,0 +1,79 @@
+function calculate() {
+    document.getElementById('formatPage').style.display="none";
+    document.getElementById('resultPage').style.display="block";
+    document.getElementById('submitBtn').style.display="none";
+//index page variables
+var name = document.getElementById('business_name').value;
+var date = document.getElementById('date').value;
+var capital = document.getElementById('capital').value;
+var profit = document.getElementById('net_profit').value;
+var drawings = document.getElementById('drawings').value;
+var debentures = document.getElementById('debentures').value;
+var bond = document.getElementById('bond').value;
+var loan = document.getElementById('loan').value;
+var creditors = document.getElementById('creditors').value;
+var overdraft = document.getElementById('bank_overdraft').value;
+var bills_paid= document.getElementById('bills_paid').value;
+var advance_income = document.getElementById('advance').value;
+var accrued_expenses = document.getElementById('accrued').value;
+var land = document.getElementById('land').value;
+var land_depriciation = document.getElementById('land_dep').value;
+var goodwill = document.getElementById('goodwill').value;
+var plants = document.getElementById('plant_and_machinary').value;
+var plants_depriciation = document.getElementById('plants_dep').value;
+var equiptment = document.getElementById('equiptment').value;
+var premises = document.getElementById('premises').value;
+var motor = document.getElementById('motor_van').value;
+var funiture = document.getElementById('funiture_and_fittings').value;
+var investment = document.getElementById('investment').value;
+var stock = document.getElementById('stock').value;
+var deptors = document.getElementById('deptors').value;
+var cash = document.getElementById('cash_in_hand').value;
+var bank = document.getElementById('bank').value;
+var bills_recieved= document.getElementById('bills_recieved').value;
+var Income_in_arrears = document.getElementById('income').value;
+var Payment_in_advance= document.getElementById('payment').value;
+
+
+//the result landing page variables
+    var capital = document.getElementById('capital').value;
+    var profit = document.getElementById('net_profit').value;
+    var get1 = document.getElementById('get1').value;
+    var drawings = document.getElementById('drawings').value;
+    var get2 = document.getElementById('get2').value;
+    var debentures = document.getElementById('debentures').value;
+    var bond = document.getElementById('bond').value;
+    var get3 = document.getElementById('get3').value;
+    var loan = document.getElementById('loan').value;
+    var creditors = document.getElementById('creditors').value;
+    var accrued_expenses = document.getElementById('accrued').value;
+    var bills_paid= document.getElementById('bills_paid').value;
+    var advance_income = document.getElementById('advance').value;
+    var get4 = document.getElementById('get4').value;
+    var overdraft = document.getElementById('bank_overdraft').value;
+    var get5 = document.getElementById('get5').value;
+    var goodwill = document.getElementById('goodwill').value;
+    var goodwill = document.getElementById('goodwill').value;
+    var investment = document.getElementById('investment').value;
+    var land = document.getElementById('land').value;
+    var get6 = document.getElementById('get6').value;
+    var land_depriciation = document.getElementById('land_dep').value;
+    var plants = document.getElementById('plant_and_machinary').value;
+    var get7 = document.getElementById('get7').value;
+    var plants_depriciation = document.getElementById('plants_dep').value;
+    var funiture = document.getElementById('funiture_and_fittings').value;
+    var premises = document.getElementById('premises').value;
+    var equiptment = document.getElementById('equiptment').value;
+    var get8 = document.getElementById('get8').value;
+    var motor = document.getElementById('motor_van').value;
+    var stock = document.getElementById('stock').value;
+    var deptors = document.getElementById('deptors').value;
+    var Payment_in_advance= document.getElementById('payment').value;
+    var bills_recieved= document.getElementById('bills_recieved').value;
+    var Income_in_arrears = document.getElementById('income').value;
+    var bank = document.getElementById('bank').value;
+    var get8 = document.getElementById('get8').value;
+    var cash = document.getElementById('cash_in_hand').value;
+    var get9 = document.getElementById('get9').value;
+    
+}

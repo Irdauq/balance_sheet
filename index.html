@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Sheet</title>
+    <link rel="stylesheet" href="format.css">
+
+</head>
+<body>
+    <header id="formatPage">
+<h1>STATEMENT OF FINANCIAL POSITION</h1>
+
+<div class="head">
+    <label>Name Of Business:</label>
+    <input type="text" placeholder="Business name" id="business_name">
+
+    <label>Date: </label>
+    <input type="date" id="date">
+</div>
+
+<div class="head_bar">
+    <div class="head_bar_item1">
+        <label>Capital: </label>
+        <input type="number" id="capital">
+    
+        <label>Net profit: </label>
+        <input type="number" id="net_profit">
+    
+        <label>Drawings: </label>
+        <input type="number" id="drawings">
+    </div>
+
+<div class="head_bar_item2">
+    <h2>Long Time liabilities</h2>
+
+    <label>Debentures: </label>
+    <input type="number" id="debentures">
+
+    <label>Bond: </label>
+    <input type="number" id="bond">
+</div>
+
+</div>
+
+<div class="head_side">
+    <div class="head_side_item1">
+        <h2>Current Liabilities</h2>
+        <label>Loan: </label>
+        <input type="number" id="loan">
+    
+        <label>Creditors: </label>
+        <input type="number" id="creditors">
+    
+        <label>Bank Overdraft: </label>
+        <input type="number" id="overdraft">
+
+        <label>Bills payable: </label>
+        <input type="number" id="bills_paid">
+
+        <label>Income in advance:</label>
+        <input type="number" id="advance">
+
+        <label>Accrued expenses:</label>
+        <input type="number" id="accrued">
+    </div>
+
+<div class="head_side_item2">
+    <h2>Fixed Assets</h2>
+
+    <label>Goodwill: </label>
+    <input type="number" id="goodwill">
+
+    <label>Land and Building: </label>
+    <input type="number" id="land">
+    
+    <label>Land and Building dep: </label>
+    <input type="number" id="land_dep">
+
+    <label>Plant and Machinary: </label>
+    <input type="number" id="plants">
+
+    <label>Plant and Machinary dep: </label>
+    <input type="number" id="plants_dep">
+
+    <label>Premises: </label>
+    <input type="number" id="premises">
+
+    <label>Equiptment: </label>
+    <input type="number" id="equiptment">
+
+    <label>Motor Van: </label>
+    <input type="number" id="motor_van">
+
+    <label>Funiture and Fittings: </label>
+    <input type="number" id="funiture_and_fittings">
+</div>
+
+<div class="head_side_item3">
+    <h3><label>Investment: </label></h3>
+    <input type="number" id="investment">
+</div>
+
+</div>
+
+<div class="head_footer">
+    <h2>Current asset</h2>
+
+    <div class="head_footer1">
+        <label class="labelAsset"> Stock: </label>
+        <input type="number" class="assestValue" id="stock">
+    </div>
+
+    <div class="head_footer1">
+        <label class="labelAsset"> Debtors: </label>
+        <input type="number" class="assestValue" id="debtors">
+    </div>
+
+    <div class="head_footer1">
+    <label class="labelAsset">Cash in hand:</label>
+    <input type="number" class="assestValue" id="cash_in_hand">
+    </div>
+
+    <div class="head_footer1">
+    <label class="labelAsset">Bank:</label>
+    <input type="number" class="assestValue" id="bank">
+    </div>
+
+    <div class="head_footer1">
+    <label class="labelAsset">Bills Recieveable:</label>
+    <input type="number" class="assestValue" id="bills_recieved">
+    </div>
+    
+    <div class="head_footer1">
+    <label class="labelAsset">Payment in advance:</label>
+    <input type="number" class="assestValue" id="payment">
+    </div>
+
+    <div class="head_footer1">
+    <label class="labelAsset">Income in arrears:</label>
+    <input type="number" class="assestValue" id="income">
+    </div>
+    <div style="clear: both;"></div>
+</div>
+</header>
+
+    <div id="resultPage">
+        <div class="head">STATEMENT OF FINANCIAL POSITION AS AT..................</div>
+        <div style="border-bottom: 1px solid black;"></div>
+        <div class="floatL lside">
+            <div class="nairas">NGN</div>
+            <div class="conDiv">
+                <span class="typeText">Capital</span>
+                <span class="values01" id="capital">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Add Net Profit</span>
+                <span class="values01 brbt" id="net_profit">X</span>
+            </div>
+            <div class="conDiv">
+                <div class="values07" id="get1">X</div>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Less Drawings</span>
+                <span class="values01 brbt" id="drawings">X</span>
+            </div>
+            <div class="conDiv">
+                <div class="values07" id="get2">X</div>
+            </div>
+            <div class="bigText">Long-term liabilities</div>
+            <div class="conDiv">
+                <span class="typeText">%Debentures</span>
+                <span class="vlaues02" id="debentures">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Bond</span>
+                <span class="vlaues02hell" id="bond">X</span>
+                <span class="values08" id="get3">X</span>
+            </div>
+            <div class="bigText">Current Liabilities :</div>
+            <div class="conDiv">
+                <span class="typeText">Loan</span>
+                <span class="vlaues02" id="loan">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Creditors</span>
+                <span class="vlaues02" id="creditors">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Accrued expenses</span>
+                <span class="vlaues02" id="accrued">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Bills payable</span>
+                <span class="vlaues02" id="bills_paid">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Income in advance</span>
+                <span class="vlaues02" id="advance">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Bank overdraft</span>
+                
+                <span class="vlaues02 brbt" id="get4">X</span>
+                <span class="values08" id="bank_overdraft">X</span>
+            </div>
+            <div>
+                <span class="values07 brtopandbt" id="get5">X</span>
+            </div>
+
+        </div>
+        <div class="floatR rside">
+            <div class="conDiv">
+                <span class="typeText bigText">Fixed assests</span>
+                <span class="values03">NGN</span>
+                <span class="values04">NGN</span>
+                <span class="values04">NGN</span>
+            </div>
+            <div>
+                <span class="typeText">Goodwill</span>
+                <span class="values05" id="goodwill">X</span>
+            </div>
+            <div>
+                <span class="typeText">Investment</span>
+                <span class="values05" id="investment">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Land and Buikding</span>
+                <span class="values03" id="land">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Less depreciation</span>
+                <span class="values03 brbt" id="get6">X</span>
+                <span class="values10" id="land_dep">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Plant & Machinery</span>
+                <span class="values03" id="plant_and_machinary">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Less depreciation</span>
+                <span class="values03 brbt" id="get7">X</span>
+                <span class="values10" id="plants_dep">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Furniture & fitting</span>
+                <span class="values05" id="funiture_and_fittings">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Premises</span>
+                <span class="values05" id="premises">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Equiptment</span>
+                <span class="values05" id="equiptment">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Motor van</span>
+                <span class="values05 brbt" id="get8">X</span>
+                <span class="values12" id="motor_van">X</span>
+            </div>
+            <div class="bigText">Current Assets</div>
+            <div class="conDiv">
+                <span class="typeText">Stock</span>
+                <span class="values03" id="stock">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Debtors</span>
+                <span class="values03" id="deptors">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Payment in advance</span>
+                <span class="values03" id="payment">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Bills Recievable</span>
+                <span class="values03" id="bills_recieved">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Income in arrears</span>
+                <span class="values03" id="income">X</span>
+            </div>
+            <div class="conDiv">
+                <span class="typeText">Bank</span>
+                <span class="values03" id="bank">X</span>
+            </div>
+            <div>
+                <span class="typeText">Cash in Hand</span>
+                <span class="values03 brbt" id="get8">X</span>
+                <span class="values13" id="cash_in_hand">X</span>
+            </div>
+            <div>
+                <span class="values13 brtopandbt" id="get9">X</span>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+<div class="last_bar" id="submitBtn">
+    <input type="submit" onclick="calculate()">
+</div>
+
+<script src="format.js"></script>
+
+</body>
+</html>

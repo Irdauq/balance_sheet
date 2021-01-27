@@ -1,0 +1,253 @@
+input {
+    border: 1px solid gray;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+/* Name of account */
+header h1{
+padding-top: 30px;
+text-align: center;
+margin-bottom: 8px;
+}
+
+/* Business name */
+.head{
+    padding: 0px 40px;
+    display: grid;
+
+}
+
+.head label{
+    padding-top: 8px ;
+}
+
+/* Data to be inputed */
+.head_bar{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.head_bar_item1 input{
+    display: block;
+}
+
+.head_bar_item2{
+    padding-bottom: 50px ;
+}
+
+.head_bar_item2 input{
+    display: block;
+}
+
+.head_side{
+    
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-content: space-around;
+}
+
+/* .head_side_item1{
+    padding-right: 100px; 
+} */
+
+.head_side_item1 input{
+    display: block;
+    padding-right: 1px ;
+}
+
+.head_side_item2 input{
+    display: block;
+    padding-right: 16px ;    
+}
+
+.head_side_item3{
+    padding-bottom: 70px ;
+    margin-top: 18px;
+}
+
+
+.head_footer h2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.head_footer1 {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+.labelAsset {
+    width: 50%;
+}
+
+.assestValue {
+    width: 50%;
+}
+
+.last_bar{
+    text-align: center;
+    
+}
+
+.last_bar input{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 5px #888888;
+    outline: none;
+}
+
+
+span {
+    display: inline-block;
+}
+
+.head {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 600;
+    margin-bottom: 3px;
+    
+}
+
+.floatL {
+    width: 47%;
+    float: left;
+    line-height: 145%;
+}
+
+div {
+    display: block;
+}
+
+.lside {
+    border-right: 1px solid black;
+}
+
+.nairas {
+    margin-left: 77%;
+}
+
+.conDiv {
+    margin-bottom: 6px;
+}
+
+.typeText {
+    width: 60%;
+}
+
+.values01 {
+    font-size: 120%;
+    margin-left: 18%;
+}
+
+.values07 {
+    margin-left: 79%;
+    font-size: 120%;
+    
+}
+
+.values02 {
+    margin-left: 78%;
+    
+}
+
+.bigText {
+    font-size: 120%;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.vlaues02hell{
+    /* padding-left: 1%; */
+    border-bottom:1px solid black ;
+}
+
+.values08 {
+    padding-left: 15%;
+    font-size: 120%;
+}
+
+.floatR {
+    width: 50%;
+    float: left;
+    
+}
+
+.rside {
+    padding-left: 2%;
+}
+
+.values03 {
+    width: 6%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.values04 {
+    font-size: 120%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.values05 {
+    font-size: 120%;
+    margin-left: 13%;
+}
+
+.brbt {
+
+    border-bottom: 1px solid black;
+    
+}
+
+.values10 {
+    font-size: 120%;
+    margin-left: 6%;
+}
+
+.values12 {
+    font-size: 120%;
+    margin-left: 8%
+}
+
+.values13{
+
+    font-size: 120%;
+    margin-left: 86%;
+    
+}
+
+.brtopandbt {
+    margin-right: 88%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+#resultPage {
+    padding: 4% 2% 3%;
+    display: none;
+}
